@@ -1,2 +1,15 @@
-# customerComplaints
- customerComplaints
+<!-- README -->
+# CustomerComplaints
+
+## 1.项目简述
+
+| 条目 | 说明 |
+| :- |:-----------------------|
+| 中文名称 | 客诉数据导出 |
+| 英文名称 | CustomerComplaints |
+| 项目作者 | 林为豪 |
+| 启动时间 | 2023.06 |
+| 编程语言 | GO |
+| 开发框架 | 原生 |
+| 项目类型 | 自学练手DEMO |
+| 简要描述 | 练手DEMO,一键实现导出客诉数据EXCEL |

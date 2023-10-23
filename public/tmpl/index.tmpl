@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>数艺客诉导出</title>
+</head>
+<body>
+    {{/*参数显示*/}}
+    <div>
+        项目名称Title : {{.ModTitle}}
+    </div>
+    <div>
+        项目版本Version : {{.Version}}
+    </div>
+    <div>
+        导出路径PathDirOutput : {{.PathDirOutput}}
+    </div>
+    {{/*提交表单*/}}
+    <form>
+        <div>
+            客诉用户UID
+            <input type="text" name="UserId" value={{.UserId}} onkeyup="value=value.replace(/[^\d]/g,'')">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    {{/*结果显示*/}}
+    <div>
+        <b>{{.MsgOut}}</b>
+    </div>
+</body>
+</html>
